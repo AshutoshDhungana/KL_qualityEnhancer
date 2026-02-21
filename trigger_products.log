@@ -1,0 +1,2 @@
+2025-05-01 13:01:17,906 - trigger_products - INFO - === Running full pipeline for Danfe Corp Product 1 ===
+2025-05-01 13:01:17,906 - trigger_products - INFO - Running command: F:\SecurityPal_NepalHacks\nepalhacks_venv\scripts\python.exe F:\SecurityPal_NepalHacks\periodic_script\trigger.py --product Danfe Corp Product 1

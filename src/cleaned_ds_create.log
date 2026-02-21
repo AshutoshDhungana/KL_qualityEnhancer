@@ -1,0 +1,40 @@
+2025-04-30 22:10:12,635 - cleaned_ds_create - INFO - Loading embeddings metadata from F:\SecurityPal_NepalHacks\models\embeddings_metadata.json
+2025-04-30 22:10:12,680 - cleaned_ds_create - INFO - Loaded embeddings metadata
+2025-04-30 22:10:12,681 - cleaned_ds_create - INFO - Initialized cleaned dataset creator
+2025-04-30 22:10:12,681 - cleaned_ds_create - INFO - Processed directory: F:\SecurityPal_NepalHacks\processed_clusters
+2025-04-30 22:10:12,681 - cleaned_ds_create - INFO - Models directory: F:\SecurityPal_NepalHacks\models
+2025-04-30 22:10:12,681 - cleaned_ds_create - INFO - Output directory: F:\SecurityPal_NepalHacks\cleaned_dataset
+2025-04-30 22:10:12,681 - cleaned_ds_create - INFO - Embeddings included: True
+2025-04-30 22:10:12,682 - cleaned_ds_create - INFO - Starting cleaned dataset creation pipeline
+2025-04-30 22:10:12,682 - cleaned_ds_create - INFO - Loading processed data for product: Danfe_Corp_Product_2 from F:\SecurityPal_NepalHacks\processed_clusters\Danfe_Corp_Product_2_processed_clusters.csv
+2025-04-30 22:10:12,700 - cleaned_ds_create - INFO - Loaded 2725 records
+2025-04-30 22:10:12,703 - cleaned_ds_create - INFO - Adding embeddings to 2725 records
+2025-04-30 22:10:12,834 - cleaned_ds_create - INFO - Added 2725 embeddings out of 2725 records
+2025-04-30 22:10:13,438 - cleaned_ds_create - INFO - Complete dataset saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_complete_dataset.csv
+2025-04-30 22:10:13,461 - cleaned_ds_create - INFO - Dataset without embeddings saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_complete_dataset_no_embeddings.csv
+2025-04-30 22:10:13,626 - cleaned_ds_create - INFO - Active canonical dataset (722 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_active_canonical.csv
+2025-04-30 22:10:13,631 - cleaned_ds_create - INFO - Archived canonical dataset (3 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_archived_canonical.csv
+2025-04-30 22:10:14,009 - cleaned_ds_create - INFO - Active redundant dataset (1695 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_active_redundant.csv
+2025-04-30 22:10:14,015 - cleaned_ds_create - INFO - Archived redundant dataset (10 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_archived_redundant.csv
+2025-04-30 22:10:14,083 - cleaned_ds_create - INFO - Noise points dataset (295 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\Danfe_Corp_Product_2_noise_points.csv
+2025-04-30 22:10:14,083 - cleaned_ds_create - INFO - Cleaned dataset creation pipeline completed
+2025-04-30 22:10:48,124 - cleaned_ds_create - INFO - Loading embeddings metadata from F:\SecurityPal_NepalHacks\models\embeddings_metadata.json
+2025-04-30 22:10:48,174 - cleaned_ds_create - INFO - Loaded embeddings metadata
+2025-04-30 22:10:48,174 - cleaned_ds_create - INFO - Initialized cleaned dataset creator
+2025-04-30 22:10:48,174 - cleaned_ds_create - INFO - Processed directory: F:\SecurityPal_NepalHacks\processed_clusters
+2025-04-30 22:10:48,174 - cleaned_ds_create - INFO - Models directory: F:\SecurityPal_NepalHacks\models
+2025-04-30 22:10:48,175 - cleaned_ds_create - INFO - Output directory: F:\SecurityPal_NepalHacks\cleaned_dataset
+2025-04-30 22:10:48,175 - cleaned_ds_create - INFO - Embeddings included: True
+2025-04-30 22:10:48,175 - cleaned_ds_create - INFO - Starting cleaned dataset creation pipeline
+2025-04-30 22:10:48,175 - cleaned_ds_create - INFO - Loading all processed data from F:\SecurityPal_NepalHacks\processed_clusters\all_processed_clusters.csv
+2025-04-30 22:10:48,404 - cleaned_ds_create - INFO - Loaded 53026 records
+2025-04-30 22:10:48,416 - cleaned_ds_create - INFO - Adding embeddings to 53026 records
+2025-04-30 22:10:50,912 - cleaned_ds_create - INFO - Added 53026 embeddings out of 53026 records
+2025-04-30 22:11:03,503 - cleaned_ds_create - INFO - Complete dataset saved to F:\SecurityPal_NepalHacks\cleaned_dataset\all_complete_dataset.csv
+2025-04-30 22:11:03,959 - cleaned_ds_create - INFO - Dataset without embeddings saved to F:\SecurityPal_NepalHacks\cleaned_dataset\all_complete_dataset_no_embeddings.csv
+2025-04-30 22:11:05,196 - cleaned_ds_create - INFO - Active canonical dataset (5259 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\active_canonical.csv
+2025-04-30 22:11:06,237 - cleaned_ds_create - INFO - Archived canonical dataset (4558 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\archived_canonical.csv
+2025-04-30 22:11:08,336 - cleaned_ds_create - INFO - Active redundant dataset (9360 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\active_redundant.csv
+2025-04-30 22:11:15,497 - cleaned_ds_create - INFO - Archived redundant dataset (30386 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\archived_redundant.csv
+2025-04-30 22:11:16,352 - cleaned_ds_create - INFO - Noise points dataset (3463 records) saved to F:\SecurityPal_NepalHacks\cleaned_dataset\noise_points.csv
+2025-04-30 22:11:16,355 - cleaned_ds_create - INFO - Cleaned dataset creation pipeline completed

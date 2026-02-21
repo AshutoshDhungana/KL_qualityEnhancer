@@ -1,0 +1,17 @@
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Loaded embeddings metadata from F:\SecurityPal_NepalHacks\models\embeddings_metadata.json
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Initialized cluster grouping pipeline
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Clusters directory: F:\SecurityPal_NepalHacks\clusters
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Models directory: F:\SecurityPal_NepalHacks\models
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Output directory: F:\SecurityPal_NepalHacks\processed_clusters
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Canonical selection method: central_similarity
+2025-05-01 15:00:41,629 - cluster_grouping - INFO - Starting cluster grouping pipeline
+2025-05-01 15:00:41,634 - cluster_grouping - INFO - Loading all merged clusters from F:\SecurityPal_NepalHacks\clusters\all_merged_clusters.csv
+2025-05-01 15:00:41,834 - cluster_grouping - INFO - Loaded 53026 records
+2025-05-01 15:00:41,834 - cluster_grouping - INFO - Identifying canonical questions in clusters
+2025-05-01 15:00:41,842 - cluster_grouping - INFO - Using central similarity method for canonical selection
+2025-05-01 15:00:47,049 - cluster_grouping - INFO - Identified 10819 canonical questions and 39690 redundant questions
+2025-05-01 15:00:47,054 - cluster_grouping - INFO - Marking archived and active questions
+2025-05-01 15:00:47,060 - cluster_grouping - INFO - Identified 37045 archived questions and 15981 active questions
+2025-05-01 15:00:47,450 - cluster_grouping - INFO - Processed data saved to F:\SecurityPal_NepalHacks\processed_clusters\all_processed_clusters.csv
+2025-05-01 15:00:47,471 - cluster_grouping - INFO - Summary statistics saved to F:\SecurityPal_NepalHacks\processed_clusters\all_summary.json
+2025-05-01 15:00:47,471 - cluster_grouping - INFO - Cluster grouping pipeline completed

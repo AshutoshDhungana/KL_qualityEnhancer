@@ -1,0 +1,50 @@
+2025-04-30 21:57:00,452 - cluster_grouping - INFO - Initialized cluster grouping pipeline
+2025-04-30 21:57:00,453 - cluster_grouping - INFO - Clusters directory: clusters
+2025-04-30 21:57:00,453 - cluster_grouping - INFO - Models directory: models
+2025-04-30 21:57:00,453 - cluster_grouping - INFO - Output directory: processed_clusters
+2025-04-30 21:57:00,453 - cluster_grouping - INFO - Canonical selection method: longest
+2025-04-30 21:57:00,453 - cluster_grouping - INFO - Starting cluster grouping pipeline
+2025-04-30 21:57:00,453 - cluster_grouping - ERROR - Error running cluster grouping pipeline: Merged clusters file not found: clusters\Danfe_Corp_Product_1_merged_clusters.csv
+2025-04-30 21:57:00,453 - cluster_grouping - ERROR - Traceback (most recent call last):
+  File "F:\SecurityPal_NepalHacks\src\cluster_grouping.py", line 515, in main
+    pipeline.run_pipeline(args.product)
+  File "F:\SecurityPal_NepalHacks\src\cluster_grouping.py", line 474, in run_pipeline
+    df = self.load_merged_clusters(product)
+  File "F:\SecurityPal_NepalHacks\src\cluster_grouping.py", line 85, in load_merged_clusters
+    raise FileNotFoundError(f"Merged clusters file not found: {file_path}")
+FileNotFoundError: Merged clusters file not found: clusters\Danfe_Corp_Product_1_merged_clusters.csv
+
+2025-04-30 22:01:21,581 - cluster_grouping - INFO - Loaded embeddings metadata from F:\SecurityPal_NepalHacks\models\embeddings_metadata.json
+2025-04-30 22:01:21,581 - cluster_grouping - INFO - Initialized cluster grouping pipeline
+2025-04-30 22:01:21,582 - cluster_grouping - INFO - Clusters directory: F:\SecurityPal_NepalHacks\clusters
+2025-04-30 22:01:21,582 - cluster_grouping - INFO - Models directory: F:\SecurityPal_NepalHacks\models
+2025-04-30 22:01:21,582 - cluster_grouping - INFO - Output directory: F:\SecurityPal_NepalHacks\processed_clusters
+2025-04-30 22:01:21,583 - cluster_grouping - INFO - Canonical selection method: central_similarity
+2025-04-30 22:01:21,583 - cluster_grouping - INFO - Starting cluster grouping pipeline
+2025-04-30 22:01:21,583 - cluster_grouping - INFO - Loading all merged clusters from F:\SecurityPal_NepalHacks\clusters\all_merged_clusters.csv
+2025-04-30 22:01:21,806 - cluster_grouping - INFO - Loaded 53026 records
+2025-04-30 22:01:21,806 - cluster_grouping - INFO - Identifying canonical questions in clusters
+2025-04-30 22:01:21,814 - cluster_grouping - INFO - Using central similarity method for canonical selection
+2025-04-30 22:01:28,124 - cluster_grouping - INFO - Identified 9817 canonical questions and 39746 redundant questions
+2025-04-30 22:01:28,129 - cluster_grouping - INFO - Marking archived and active questions
+2025-04-30 22:01:28,137 - cluster_grouping - INFO - Identified 37045 archived questions and 15981 active questions
+2025-04-30 22:01:28,541 - cluster_grouping - INFO - Processed data saved to F:\SecurityPal_NepalHacks\processed_clusters\all_processed_clusters.csv
+2025-04-30 22:01:28,561 - cluster_grouping - INFO - Summary statistics saved to F:\SecurityPal_NepalHacks\processed_clusters\all_summary.json
+2025-04-30 22:01:28,561 - cluster_grouping - INFO - Cluster grouping pipeline completed
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Loaded embeddings metadata from F:\SecurityPal_NepalHacks\models\embeddings_metadata.json
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Initialized cluster grouping pipeline
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Clusters directory: F:\SecurityPal_NepalHacks\clusters
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Models directory: F:\SecurityPal_NepalHacks\models
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Output directory: F:\SecurityPal_NepalHacks\processed_clusters
+2025-04-30 22:02:45,462 - cluster_grouping - INFO - Canonical selection method: central_similarity
+2025-04-30 22:02:45,463 - cluster_grouping - INFO - Starting cluster grouping pipeline
+2025-04-30 22:02:45,463 - cluster_grouping - INFO - Loading merged clusters for product: Danfe_Corp_Product_2 from F:\SecurityPal_NepalHacks\clusters\Danfe_Corp_Product_2_merged_clusters.csv
+2025-04-30 22:02:45,493 - cluster_grouping - INFO - Loaded 2725 records
+2025-04-30 22:02:45,493 - cluster_grouping - INFO - Identifying canonical questions in clusters
+2025-04-30 22:02:45,496 - cluster_grouping - INFO - Using central similarity method for canonical selection
+2025-04-30 22:02:45,860 - cluster_grouping - INFO - Identified 725 canonical questions and 1705 redundant questions
+2025-04-30 22:02:45,860 - cluster_grouping - INFO - Marking archived and active questions
+2025-04-30 22:02:45,861 - cluster_grouping - INFO - Identified 16 archived questions and 2709 active questions
+2025-04-30 22:02:45,881 - cluster_grouping - INFO - Processed data saved to F:\SecurityPal_NepalHacks\processed_clusters\Danfe_Corp_Product_2_processed_clusters.csv
+2025-04-30 22:02:45,885 - cluster_grouping - INFO - Summary statistics saved to F:\SecurityPal_NepalHacks\processed_clusters\Danfe_Corp_Product_2_summary.json
+2025-04-30 22:02:45,885 - cluster_grouping - INFO - Cluster grouping pipeline completed

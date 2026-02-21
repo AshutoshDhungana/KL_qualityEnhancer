@@ -1,0 +1,22 @@
+{
+  "product": "all",
+  "total_questions": 53026,
+  "clusters": {
+    "total": 2897,
+    "noise_points": 3463
+  },
+  "questions": {
+    "canonical": 9817,
+    "redundant": 39746,
+    "archived": 37045,
+    "active": 15981,
+    "active_canonical": 5259,
+    "archived_canonical": 4558
+  },
+  "cluster_size_distribution": {
+    "min": 8,
+    "max": 2141,
+    "mean": 17.10838798757335,
+    "median": 14.0
+  }
+}
